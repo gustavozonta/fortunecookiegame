@@ -12,9 +12,9 @@
 <h2 align="center"> Design </h2>
 
 <p align="center">
-  <img alt="fortunecookiefirstpage" src="./assets/fortunecookiefirst" width="100%">
+  <img alt="fortunecookiefirstpage" src="./assets/img1.png" width="100%">
   </br>
-  <img alt="fortunecookiesecondpage" src="./assets/fortunecookiesecond" width="100%">
+  <img alt="fortunecookiesecondpage" src="./assets/img2.png" width="100%">
 </p>
 
 ## 🚀 Technology
