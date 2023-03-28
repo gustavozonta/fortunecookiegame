@@ -4,9 +4,6 @@ const screen2 = document.querySelector('.screen2');
 const cookieOpen = document.querySelector('#cookieOpen'); 
 const anotherCookie = document.querySelector('#anotherCookie');
 let fortuneRandomPhrase = document.querySelector('.fortuneRandomPhrase p');
-
-
-//logic
 let fortunePhrases = [
   "Delight the world with compassion, kindness and grace",
   "The early bird gets the worm, but the second mouse gets the cheese.",
