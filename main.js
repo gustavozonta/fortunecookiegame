@@ -25,7 +25,6 @@ let fortunePhrases = [
 cookieOpen.addEventListener('click', phraseAppear)
 anotherCookie.addEventListener('click', anotherCookieClick);
 document.addEventListener('keydown', enterButton)
-document.addEventListener('keyup', leaveButton)
 
 //functions
 function phraseAppear(event) {

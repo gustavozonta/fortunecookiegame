@@ -24,18 +24,6 @@ body {
   background-size: 200% 200%;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 main {
   width: 42.8rem;
   text-align: center;
@@ -67,7 +55,7 @@ main p {
   width: 30rem;
   height: 20rem;
   top: 11.2rem;
-  animation: tremer 0.2s infinite;
+  animation: tremble 0.2s infinite;
   animation-play-state: paused;
   cursor: pointer;
   transition: all 1s;
@@ -75,14 +63,6 @@ main p {
 
 #cookieOpen:hover {
   animation-play-state: running;
-}
-
-@keyframes tremer {
-    0% {margin-left: 0;}
-    25% {margin-left: 7px;}
-    50% {margin-left: 0;}
-    75% {margin-left: -7px;}
-    100% {margin-left: 0;}
 }
 
 /* screen2 */
@@ -108,19 +88,6 @@ main p {
   justify-content: center;
   animation: downtop 2s 350ms backwards;
 }
-
-@keyframes downtop {
-  0% {
-    opacity: 0;
-    transform: translateY(8rem) scale(0);
-  }
-
-  100% {
-    opacity: 4;
-    transform: translateY(0) scale(1);
-  }
-}
-
 
 .screen2 p {
   font-family: 'Dancing Script', cursive;
@@ -154,6 +121,40 @@ main p {
   background-color: #FFA33B;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(8rem) scale(0);
+  }
+
+  100% {
+    opacity: 4;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes tremble {
+    0% {margin-left: 0;}
+    25% {margin-left: 7px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -7px;}
+    100% {margin-left: 0;}
+}
+
+
+
 /* Scren up to 768px */
 @media screen and (max-width: 768px) {
 
@@ -170,6 +171,7 @@ main p {
   #imgcookie {
     width: 100%;
     height: auto;
+    place-items: center;
   }
 
   #fortuneRandomPhrase {
