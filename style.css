@@ -154,7 +154,7 @@ main p {
   background-color: #FFA33B;
 }
 
-/* Estilo para telas menores que 768px */
+/* Scren up to 768px */
 @media screen and (max-width: 768px) {
 
   main {
@@ -162,7 +162,7 @@ main p {
     padding: 2.4rem;
   }
 
-  /* Estilo para a tela 2 */
+  /* Screen 2 */
   .screen2 main {
     height: auto;
   }
@@ -184,14 +184,14 @@ main p {
 
 }
 
-/* Estilo para telas maiores que 768px */
+/* Screens bigger than 768px */
 @media screen and (min-width: 769px) {
 
   main {
     width: 42.8rem;
   }
 
-  /* Estilo para a tela 2 */
+  /* Screen 2 */
   .screen2 main {
     height: 83vh;
   }
